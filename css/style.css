@@ -349,7 +349,7 @@ h6 {
 	font-size: 16px;
 	letter-spacing: 0.333333px;
 	text-transform: none;
-	color: #ee4444;
+	color: #EB212E;
 	line-height: 20px;
 }
 
@@ -357,6 +357,7 @@ h6 {
 .navbar-nav > li > a {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	font-size: 12px;
+	color: #79A4B2;
 	letter-spacing: 1px;
 	text-transform: none;
 	text-shadow: none;
