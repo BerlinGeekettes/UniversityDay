@@ -160,12 +160,11 @@ a:hover {
 	text-shadow: none;
 }
 
-.yellow-bg {
-	background-color: #fffdd2;
+.blue-bg {
+	background-color: #CDE6ED;
 	color: #343434;
-	text-shadow: none;
+	text-shadow: 0 1px 0 white;
 	padding: 0 6px 0 6px;
-	border-bottom: 1px solid #fff73a;
 }
 
 /*.nav li{
@@ -185,7 +184,7 @@ a:hover {
 	padding: 3px 7px;
 	margin-right: 5px;
 	font-size: 13px;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	line-height: 1;
 	color: #ffffff;
 	text-shadow:none;
