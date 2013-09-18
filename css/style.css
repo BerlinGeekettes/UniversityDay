@@ -110,6 +110,11 @@ hr {
 	margin-top: 40px;
 }
 
+.introtext {
+	font-size: 13px;
+	color: #EB212E;
+	letter-spacing: 1px;
+}
 
 /*-----------------------------------------------------------------------------
 =02 BODYCOPY
@@ -302,6 +307,7 @@ h2 {
 	font-size: 40px;
 	font-weight: 300;
 	letter-spacing: -0.2px;
+	margin-top: 10px;
 	/* text-transform: uppercase; */
 	color: #191818;
 }
@@ -310,6 +316,7 @@ h3 {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	font-size: 24px;
 	font-weight: 300;
+	color: #79A4B2;
 	margin: 20px 0 20px 0;
 }
 
