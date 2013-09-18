@@ -114,6 +114,15 @@ hr {
 	font-size: 13px;
 	color: #EB212E;
 	letter-spacing: 1px;
+	margin-top: 10px;
+}
+
+.speakertext {
+	font-size: 13px;
+	color: #EB212E;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	color: #79A4B2;
 }
 
 .col-md-6, .col-md-4, .col-md-8 {
