@@ -1,0 +1,444 @@
+/*
+Theme Name: Berlin Geekettes University Day
+
+build on Bootstrap 3
+
+[Table Of Contents]
+
+	01- BODY
+	02- BODY COPY
+	03- HERO UNIT
+	04- ICON STYLE
+	05- HEADERS
+	06- BODYCOPY
+	0- NAVIGATION
+	0- API LIST
+	0- FOOTER
+
+*/
+
+/*-----------------------------------------------------------------------------
+=01 BODY
+-----------------------------------------------------------------------------*/
+
+@font-face {
+  font-family: ssPika;
+  src: url(../font/ss-pika.ttf ) format("truetype");
+}
+
+@font-face {
+  font-family: ssPikaSocial;
+  src: url(../font/ss-social-regular.ttf ) format("truetype");
+}
+
+
+body {
+	font-size: 16px;
+	background: #fff; /* alternative #f7f7f7*/
+	/*
+	font-family: 'Varela', sans-serif;
+	*/
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-rendering: optimizeLegibility;
+	color: #404956;
+}
+
+@media (max-width: 767px) {
+	.container {
+		max-width: 500px;
+	}
+}
+
+.navbar-wrapper {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #fff; /* alternative #f7f7f7*/
+}
+
+::selection {
+	background-color: rgba(121,164,178,0.9); /* Safari */
+	color: white;
+	text-shadow: none;
+}
+
+::-moz-selection {
+	background-color: rgba(121,164,178,0.9); /* Firefox */
+	text-shadow: none;
+	color: white;
+}
+
+.text-centered {
+	text-align: center;
+}
+
+.container {
+	padding-top: 0px;
+	width: 100%;
+}
+
+
+section.narrow {
+	padding: 2em 0;
+}
+
+
+.color_bg {
+	background: #F6F8F8;
+}
+
+
+hr {
+	color: #DADFE1;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 1px solid #eeeeee;
+}
+
+#schedule {
+	margin-top: 80px;
+	margin-bottom: 120px;
+}
+
+.hero-title {
+	padding-top: 60px;
+	border-bottom: 1px solid #e3e5e8;
+	box-shadow: 0 1px 0px white;
+}
+
+.main {
+	margin-top: 40px;
+}
+
+
+/*-----------------------------------------------------------------------------
+=02 BODYCOPY
+-----------------------------------------------------------------------------*/
+
+
+p {
+	font-size: 15px;
+	color: #333;
+	line-height: 1.6em;
+	margin-bottom: 2px;
+}
+
+a, a:visited {
+	color: #ee4444;
+	text-decoration: none;
+	padding: 3px;
+}
+
+a:hover {
+	color: white;
+	background-color: #ee4444;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+.yellow-bg {
+	background-color: #fffdd2;
+	color: #343434;
+	text-shadow: none;
+	padding: 0 6px 0 6px;
+	border-bottom: 1px solid #fff73a;
+}
+
+/*.nav li{
+	float: right;
+	background-color: gray;
+}
+*/
+
+
+
+.topics {
+	color: #788991;
+	text-shadow: 0 1px 0 white;
+}
+
+
+
+/*-----------------------------------------------------------------------------
+=02 HERO UNIT (BANNER)
+-----------------------------------------------------------------------------*/
+
+
+@media all and (min-width: 450px) {
+	.jumbotron {
+		height: 580px;
+	}
+
+	.jumbotron:after {
+		height: 580px;
+	}
+
+	.jumbotron h1 {
+		padding-top: 0px;
+		margin-bottom: 10px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
+
+
+@media screen and (min-width: 768px) {
+	.jumbotron {
+		padding-top: 88px;
+		padding-bottom: 48px;
+	}
+}
+
+
+.jumbotron * {
+	position: relative;
+	z-index: 2;
+}
+
+.jumbotron {
+	position: relative;
+	display: block;
+	background-color: #000000;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-image: url(../img/bg_banner@2x.png);
+	margin-bottom: 0px;
+}
+
+.jumbotron h1 {
+	color: #fff;
+	font-size: 50px;
+}
+
+.jumbotron p {
+	color: #fff;
+	text-shadow: none;
+	text-align: center;	
+}
+
+
+
+
+/*-----------------------------------------------------------------------------
+=03 ICONS STYLE PIKA
+-----------------------------------------------------------------------------*/
+
+.pika-icon {
+	font-family: ssPika;
+	font-size: 25px;
+	color: #fff;
+	line-height:30px;
+	text-align: center;
+}
+
+.circle {
+	width:60px;
+	height:60px;
+	border-radius:50px;
+	font-family: ssPika;
+	font-size: 25px;
+	color: #f7f7f7;
+	text-align: center;
+	line-height:65px;
+	background:#ee4444;
+	margin: 0 auto;
+}
+
+.pika-icon-section {
+	font-family: ssPika;
+	font-size: 30px;
+	color: #79A4B2;
+	text-shadow: none;
+	padding-right: 10px;
+	padding-top: 15px;
+	line-height: 20px;
+	text-align: center;
+}
+
+.pikasocial-icon-section{
+	font-family: ssPikaSocial;
+	font-size: 18px;
+	color: rgba(64,73,86,0.7);
+	/* #404956 */
+	text-shadow: none;
+	padding-right: 10px;
+	padding-top: 15px;
+	line-height: 20px;
+	text-align: center;
+}
+
+.span12 h2 {
+	margin: 0 auto;
+}
+
+
+.scrollspy-example {
+	height: 200px;
+	overflow: auto;
+	position: relative;
+}
+
+
+/*-----------------------------------------------------------------------------
+=04 HEADERS
+-----------------------------------------------------------------------------*/
+
+
+h1 {
+	font-family: 'Merriweather', Georgia, Serif;
+	font-weight: 700;
+	line-height: 1.05em;
+	font-size: 2em;
+	color: #fff;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-size: 40px;
+	font-weight: 300;
+	letter-spacing: -0.2px;
+	/* text-transform: uppercase; */
+	color: #191818;
+}
+
+h3 {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	font-weight: 300;
+	margin: 20px 0 20px 0;
+}
+
+h4 {
+	font-size: 20px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+h6 {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	/* text-transform: uppercase; */
+	color: #191818;
+	font-size: 20px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+/*-----------------------------------------------------------------------------
+=06 NAVIGATION
+-----------------------------------------------------------------------------*/
+
+/*.navbar-inverse .navbar-inner{
+	background: rgba(38,38,40,0.95);
+}*/
+
+.navbar-default .navbar-brand {
+	font-family: 'Merriweather', Georgia, Serif;
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 0.333333px;
+	text-transform: none;
+	color: #ee4444;
+	line-height: 20px;
+}
+
+
+.navbar-nav > li > a {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	letter-spacing: 1px;
+	text-transform: none;
+	text-shadow: none;
+}
+
+/*-----------------------------------------------------------------------------
+=07 API LIST
+-----------------------------------------------------------------------------*/
+#apilist li {
+	float: left;
+	display: inline;
+	margin: 20px;
+	font-size: 20px;
+}
+
+#apilist a:hover {
+
+}
+
+
+/*-----------------------------------------------------------------------------
+=08 FOOTER
+-----------------------------------------------------------------------------*/
+.bg-footer {
+	width: 100%;
+	max-height: 30px;
+}
+
+footer {
+	max-width: 1170px;
+	padding: 40px 0 0 10px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+
+
+footer p {
+	font-size: 13px;
+	color: rgba(64,73,86,1);
+	letter-spacing: 0.8px;
+	text-shadow: 0 1px 0 white;
+}
+
+/*-----------------------------------------------------------------------------
+SPONSORS
+-----------------------------------------------------------------------------*/
+#sponsors {
+	text-align: center;
+	font-size: 20px;
+}
+
+#sponsors .row {
+	padding: 30px 0;
+}
+
+.sponsor-logo {
+	max-width: 300px;
+	vertical-align: middle;
+	display: inline-block;
+	margin: 0 15px;
+}
+
+.sponsor-logo-premier {
+	width: 75%;
+	max-width: 500px;
+}
+
+.sponsor-logo-major {
+	width: 22%;
+}
+
+.sponsor-logo-partner {
+	max-width: 20%;
+	max-height: 130px;
+	margin-bottom: 20px;
+}
+
+.sponsor-logo-supporter {
+	max-width: 15%;
+	max-height: 75px;
+	margin-bottom: 20px;
+}
